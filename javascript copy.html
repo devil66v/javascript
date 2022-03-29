@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <h1>실습</h1>
+        <input type="button" value="할부계산기" onclick="
+            let price = Number(prompt('원금?'));
+                months = Number(prompt('무이자 할부 개월수(1~6)?'));                           
+            if(months>=1 && months<=6) {
+                var 할부금액
+                할부금액=Number(price/months);       
+                alert('월 할부금액은'+할부금액+'원입니다.');
+            } else {    
+                alert('무이자 할부는 1~6개월만 가능합니다.');
+            }
+            ">
+    </body>
+</html>
